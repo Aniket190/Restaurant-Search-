@@ -17,7 +17,7 @@ export default ()=>{
         setResults(response.data.businesses);
        }
        catch(err){
-           setErrorMessage('Something Went Wrong!');
+           setErrorMessage('Something Went Wrong!'+err);
        }
     }
     
